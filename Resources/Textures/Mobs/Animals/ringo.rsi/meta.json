@@ -3,19 +3,19 @@
     "license": "CC-BY-NC-SA-3.0",
     "copyright": "Original sprite by Very-Soft (https://github.com/Very-Soft), edits by Hannah 'FairlySadPanda' Dawson. Displacement maps by Hannah 'FairlySadPanda' Dawson. Original creature concept by VIDEOCULT, and used with kind permission.",
     "size": {
-        "x": 32,
-        "y": 32
+        "x": 25,
+        "y": 69
     },
     "states": [
         {
-            "name": "scurret",
+            "name": "ringo",
             "directions": 4
         },
         {
-            "name": "scurret_rip"
+            "name": "ringo_NOO"
         },
         {
-            "name": "scurret_oof"
+            "name": "ringo_death"
         }
     ]
 }
