@@ -1,4 +1,4 @@
-# Defines the scurret, a small, agile sapient species intended for players who want to play as something similar to an ewok.
+# you can be a ringo. Be a free beatle
 # Although based on MobBaseAncestor, this species does not have a "developed" playable species it is an ancestor to.
 
 - type: entity
@@ -14,7 +14,7 @@
   - type: HumanoidAppearance
     species: Ringo
   - type: Body
-    prototype: Scurret
+    prototype: Ringo
     bodyType: Complex
     requiredLegs: 2
   - type: AntagImmune # Goob, no evil wawa
@@ -73,7 +73,7 @@
   - type: Speech
     speechVerb: Wawa
     speechSounds: Wawa
-    allowedEmotes: ["Thump"] # They're 80% tail
+    allowedEmotes: ["Thump"]
   - type: TypingIndicator
     proto: moth
   - type: InteractionPopup
@@ -98,8 +98,8 @@
       types:
         Piercing: 10 # NOM
   - type: Inventory
-    speciesId: scurret
-    templateId: scurret
+    speciesId: ringo
+    templateId: ringo
     displacements:
       jumpsuit:
         sizeMaps:
@@ -211,8 +211,8 @@
 # feel free to hook them into random content.
 
 - type: entity
-  name: Emotional Support Scurret
-  id: MobBaseEmotionalSupportScurret
+  name: Emotional Support Ringo
+  id: MobBaseEmotionalSupportBeatle
   parent: MobBaseScurret
   abstract: true
   components:
@@ -223,8 +223,8 @@
       - Passive
     - type: GhostRole
       makeSentient: true
-      name: ghost-role-information-emotional-support-scurret-name
-      description: ghost-role-information-emotional-support-scurret-description
+      name: ghost-role-information-emotional-support-ringo-name
+      description: ghost-role-information-emotional-support-ringo-description
       rules: ghost-role-information-nonantagonist-rules
       raffle:
         settings: default
