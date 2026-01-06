@@ -1497,6 +1497,17 @@
     spawned:
     - id: FoodMeat
       amount: 4
+  - type: SentienceTarget
+    flavorKind: station-event-random-sentience-flavor-primate
+  - type: AlwaysRevolutionaryConvertible
+  - type: GhostRole
+    prob: 100
+    makeSentient: true
+    name: ghost-role-information-monkey-name
+    description: ghost-role-information-monkey-description
+    rules: ghost-role-information-freeagent-rules # Goobstation - - remove: 1984
+    mindRoles:
+    - MindRoleGhostRoleFreeAgent
   - type: Bloodstream
     bloodMaxVolume: 300
     # if you fuck with the gorilla he will harambe you
