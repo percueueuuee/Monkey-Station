@@ -15,6 +15,7 @@
 # Available to everybody
 - Commands:
     - echo
+    - gondola
     - disconnect
     - help
     - list
